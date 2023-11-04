@@ -3,7 +3,7 @@ name: Auto Clean Commit
 on:
   schedule:                # 在每周二和周五国际凌晨1点执行
     - cron: '0 1 * * 2,5'  # Runs at 01:00 UTC on Tue and Fri.
-  workflow_dispatch:
+  # workflow_dispatch:
 
 jobs:
   Clean:
